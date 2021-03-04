@@ -1,0 +1,16 @@
+● git --version
+● git config --global user.name ""
+● git config --global user.email ""
+● pwd  -Print Working Directory. It prints the path of the working directory, starting from the root.
+● ls - list files and directories.
+● cd - change directory command to change the terminal's location to any other directory location.
+● mkdir - make directory.create a new directory/folder.
+● cd ..  - come one step out of the present directory.
+● git clone <path>  - this will create a copy of that github repository in your own local server.
+● git status  - to check the changes made.
+● git add <file_name>  - add the file in which we made changes
+● git commit -m "<message>" 
+● git remote add <remote_name> <remote_github_url>  -you can use any name for the remote name, 
+     you need to use the url of the GitHub repository you just created for the remote repository 
+● git push -u <remote_name>   - this is the way we push or upload the commited changes sttored in our local repository to 
+     the remote repository we just created.(-u stands for username)
